@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.card-container {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 360px;
+    height: 504px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+.card-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.card-image__background {
+    position: absolute;
+    top: 24%;
+    width: 96%;
+    height: 48%;
+    margin: 6px;
+    background-color: #9F4C9C;
+    border: 5px solid black;
+    transform: skewY(20deg);  
+}
+.card-image__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.card-image__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-name {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 6%;
+    width: 100%;
+    height: 20%;
+    transform: skewY(-10deg);   
+}
+.card-name p {
+    display: inline-block;
+}
+.card-name__position {
+    position: absolute;
+    bottom: 60%;
+    left: 2%;
+    width: 18%;
+    height: 75%;
+    border-bottom-left-radius: 5px;
+    background-color: black;
+    transform: skewy(28deg);
+}
+.card-name__position p {
+    position: absolute;
+    top: 10%;
+    left: 25%; 
+    font-size: 2.5rem;
+    transform: skewy(-28deg)
+}
+.card-name__team {
+    position: absolute;
+    bottom: 72%;
+    right: 3%;
+    width: 25%;
+    height: 100%;
+    border-bottom-left-radius: 5px;
+    border: 5px solid black;
+    transform: skewy(28deg);
+}
+.card-name__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+.card-name__team img{
+    position: absolute;
+    left: -6px;
+    bottom: 26px;
+    width: 115%;
+    transform: skewy(-20deg);
+}
+.card-name__name-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 5px;
+    background-color: #9F4C9C;
+    border-top: 5px solid black;
+}
+.card-name__name {
+    position: absolute;
+    top: 10px;
+    width: 98%;
+    height: 70%;
+    background-color: black;
+}
+.card-name__name p:nth-child(1) {
+    position: relative;
+    bottom: 55%;
+    left: 3%;
+    font-size: 3rem;
+}
+.card-name__name p:nth-child(2) {
+    position: relative;
+    bottom: 20%;
+    left: 8%;
+    font-size: 7rem;
+}
+.card-name__name p:nth-child(3) {
+    position: relative;
+    bottom: 72%;
+    left: 17%;
+    font-size: 2rem;
+}
+.card-name__name p:nth-child(4) {
+    position: relative;
+    bottom: 20%;
+    left: 0;
+    font-size: 4rem;
+}
+.card-overall {
+    position: absolute;
+    top: 5%;
+    width: 100px;
+    height: 90px;
+}
+.card-overall__title {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+.card-overall__title p {
+    position: absolute;
+    right: 11px;
+    top: -4px;
+    font-family: 'lobster', cursive;
+    color: white;
+    font-size: 2.8rem;
+}
+.card-overall__overall {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 5px solid black;
+}
+.card-overall__overall p {
+    position: absolute;
+    right: 15px;
+    top: -18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 5rem;
+}
+.card-overall__bottom1 {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    border-top: 15px solid black;
+    border-right: 45px solid transparent;
+    border-left: 45px solid transparent;
+}
+.card-overall__bottom2 {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    height: 15px;
+    border-top: 15px solid white;
+    border-right: 45px solid transparent;
+    border-left: 45px solid transparent;
+}
+
+
